@@ -119,7 +119,33 @@ void main() {
 
   /*
                     Maps
-*/
   Map<String, String> myDetails = {"name": "Roman", "address": "Dhaka"};
-  print(myDetails["Dhaka"]);
+  print(myDetails["name"]);
+*/
+
+  /*
+  -> Static type
+
+        var -> keyword
+  var name = "roman";
+  print(name.runtimeType);
+  var age = 21;
+  print(age.runtimeType);
+
+  -> dynamic type
+  dynamic myVariable = 92;
+  myVariable = " roman";
+  print(myVariable); 
+
+*/
+
+  /*  
+  Runes and Runtime type
+*/
+  String value = "A";
+  print(value.runes);
+
+  var a = 10;
+  // print(a.runtimeType);
+  print(a is int);
 }
