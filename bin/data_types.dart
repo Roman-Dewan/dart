@@ -98,7 +98,8 @@ void main() {
   print("Type of d is : ${d.runtimeType}");
   */
 
-  // lists
+  /*
+                    lists
   List<String> name = ["roman", "mitu", "mahdi"];
   print("value of names is : $name"); // print all
   print("Value of name[0] is : ${name[0]}");
@@ -107,4 +108,18 @@ void main() {
 
   int length = name.length;
   print("length of the name is : $length");
+*/
+
+  /* 
+                      Sets 
+
+  Set<String> weekday = {"sun", "mon", "Tue", "Wed", "Thu", "Fri", "Sat"};
+  print(weekday);
+*/
+
+  /*
+                    Maps
+*/
+  Map<String, String> myDetails = {"name": "Roman", "address": "Dhaka"};
+  print(myDetails["Dhaka"]);
 }
