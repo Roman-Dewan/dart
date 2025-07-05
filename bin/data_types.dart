@@ -145,7 +145,7 @@ void main() {
   String value = "A";
   print(value.runes);
 
-  var a = 10;
+  // var a = 10;
   // print(a.runtimeType);
-  print(a is int);
+  // print(a is int);
 }
