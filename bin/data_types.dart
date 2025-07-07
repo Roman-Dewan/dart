@@ -142,10 +142,15 @@ void main() {
   /*  
   Runes and Runtime type
 */
-  String value = "A";
-  print(value.runes);
+  // String value = "A";
+  // print(value.runes);
 
   // var a = 10;
   // print(a.runtimeType);
   // print(a is int);
+  // print("Hi " + "There");
+  // int x = 10 - 3;
+  // print(x);
+  // String s = 10;
+  
 }
