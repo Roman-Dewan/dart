@@ -1,4 +1,4 @@
-import 'dart:io';
+// import 'dart:io';
 
 void main() {
   /*
@@ -17,8 +17,19 @@ void main() {
   print("Number is : $number");
 */
   /*
-*/
+
   print("Enter number : ");
   double? value = double.parse(stdin.readLineSync()!);
-  print(value);
+  print(value);*/
+
+  // String? s;
+  // print(s);
+
+  print("enter number : ");
+  // int? age = stdin.readByteSync();
+  // print(age);
+
+  // '!' -> indicate that this part can't nullable
+  // int? age = int.tryParse(stdin.readLineSync()!);
+  // print(age);
 }
