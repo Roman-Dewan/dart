@@ -6,15 +6,15 @@ void main() {
   using the triple quoutes
   This is tutorial on dart strings""";
 
-  // print(text1);
-  // print(text2);
-  // print(text3);
+  print(text1);
+  print(text2);
+  print(text3);
 
   // String concatenation.
   String firstName = "roman";
   String lastName = "Dewan";
   // print("Using +,Full name is " + firstName + " " + lastName + ".",); // using '+'
-  // print("Using interpolation, full name is $firstName $lastName");
+  print("Using interpolation, full name is $firstName $lastName");
 
   /*
     properties of string.
