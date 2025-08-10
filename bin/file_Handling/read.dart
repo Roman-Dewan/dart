@@ -36,12 +36,32 @@ void main() {
   // }
 }
 */
-/* 
-  
-*/
+
+// reading file documnet
+
 void main() {
-  File file = File("name.txt");
-  String text = file.readAsStringSync().substring(3, 10);
-  print(text);
+  // read and show output.
+  // File file = File('name.txt');
+  // String content = file.readAsStringSync();
+  ///                  for sub string.
+  // String content = file.readAsStringSync().substring(0, 10);
+  // print(content);
+
+
+  // print("File path: ${file.path}");
+  // print("File absolute path: ${file.absolute.path}");
+  // print("File size: ${file.lengthSync()} bytes");
+  // print("Last accessed: ${file.lastAccessedSync()}");
+  // print("Last modified: ${file.lastModifiedSync()}");
+
+  File file = File('text.csv');
+  String contents = file.readAsStringSync();
+  List<String> lines = contents.split('\n');
+
+  print("----------------");
+  for (var line in lines) {
+    print(line);
+  }
 }
+
 
